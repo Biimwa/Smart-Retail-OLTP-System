@@ -21,21 +21,5 @@ This project showcases a hands-on implementation of an **OLTP database** system 
 - Python 3.11
 - Libraries: `pandas`, `sqlalchemy`, `mysql-connector-python`
 - Bash, Cron (for automation)
+- Docker
 
----
-
-## 🧱 1. Schema Design
-
-### Database: `sales`
-
-### Table: `sales_data`
-
-```sql
-CREATE TABLE sales_data (
-    sales_id INT AUTO_INCREMENT PRIMARY KEY,
-    product_name VARCHAR(100),
-    quantity_sold INT,
-    price_per_unit DECIMAL(10, 2),
-    sale_date DATE,
-    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
